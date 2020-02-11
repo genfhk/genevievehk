@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Genevieve Havemeyer-King</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="css/powercorruptionandlies.css" id="neworder" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+
+      <div class="introduction">
+        <h1>Genevieve Havemeyer-King</h1>
+      </div>
+      <div class="content">
+
+        <h3 class="lead">Bio</h3>
+        <p>Archivist, projectionist & lightshow performance artist working in both analog and digital time-based media formats.</p>
+        <h3 class="lead">Work</h3>
+        <p>I currently work at <a
+        href="https://www.nypl.org/">The New York Public Library</a>, as a Media Preseration Coordinator. Contact me for a full CV!
+
+
+        <h3 class="lead">Art</h3>
+        <ul>
+          <li>Liquid Light Performance: <a href="https://facebook.com/clockfaceorange">A Clockface Orange</a></li>
+        </ul>
+        <h3 class="lead">Contact</h3>
+        <p>
+          Email me: <script language="JavaScript"> var username = "gen.fhk"; var hostname = "gmail.com"; var linktext = username + "@" + hostname ; document.write("<a href='" +
+          "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>"); </script>
+        </p>
+      </div>
+      <div class="footer">
+        <footer>
+          <a href="https://github.com/genfhk/genevievehk">source</a>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/welcome.min.js"></script>
+    <script type="text/javascript">
+    for(let btn of document.querySelectorAll('.makeover')) {
+      btn.addEventListener('click', (e) => {
+        document.getElementById('neworder').href = "css/" + btn.id + ".css"
+      }, false);
+    };
+
+    document.getElementById('unknownpleasures').addEventListener('click', (e) => {
+      document.getElementById('neworder').href = "css/unknownpleasures.css"
+    }, false);
+    </script>
+  </body>
+</html>
