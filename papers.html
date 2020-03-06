@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Genevieve Havemeyer-King</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="css/powercorruptionandlies.css" id="neworder" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="container">
+
+      <div class="Papers">
+        <h1>Papers and Other Publications</h1>
+      </div>
+      <div class="content">
+        <h3 class="lead">Art</h3>
+        <ul>
+          <li><a href="https://facebook.com/clockfaceorange">POLAVISION:“Immediately Visible Living Images”</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <footer>
+          <a href="https://genevievehk.com">Home</a>
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/welcome.min.js"></script>
+    <script type="text/javascript">
+    for(let btn of document.querySelectorAll('.makeover')) {
+      btn.addEventListener('click', (e) => {
+        document.getElementById('neworder').href = "css/" + btn.id + ".css"
+      }, false);
+    };
+
+    document.getElementById('unknownpleasures').addEventListener('click', (e) => {
+      document.getElementById('neworder').href = "css/unknownpleasures.css"
+    }, false);
+    </script>
+  </body>
+</html>
